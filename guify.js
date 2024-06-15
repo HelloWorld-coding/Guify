@@ -1,4 +1,3 @@
-
 const alert_ = document.createElement('div');
 alert_.style.color = 'white';
 alert_.style.textAlign = 'center';
@@ -1073,11 +1072,11 @@ class GuifyCreator {
             };
         };
 
-        input.addEventListener('keypress', (event) => {
+        /*input.addEventListener('keypress', (event) => {
             if (event.key == 'Enter') {
                 if (funct) funct(input.value);
             };
-        });
+        });*/
 
         input.addEventListener('input', (event) => {
             event.stopPropagation();
